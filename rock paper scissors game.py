@@ -14,6 +14,14 @@ while True:
             'displaying the AI choice'
             print(f'AI input: {AI_input}')
 
+            ''''
+            GAME LOGIC:
+            PAPER COVERS ROCK ==> PAPER WINS
+            ROCK CRUSHES SCISSORS ==> ROCK WINS
+            SCISSORS CUTS PAPER ==> SCISSORS WINS
+            
+            '''
+
             'comparing inputs and deciding the winner'
             if (player_input == AI_input):
                 print('It\'s a tie!')
